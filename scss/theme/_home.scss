@@ -23,30 +23,30 @@
 
 
 .p1-gradient-bg{
-  background-image: -moz-linear-gradient( 0deg, rgb(136,143,255) 0%, rgb(206,144,255) 100%);
-  background-image: -webkit-linear-gradient( 0deg, rgb(136,143,255) 0%, rgb(206,144,255) 100%);
-  background-image: -ms-linear-gradient( 0deg, rgb(136,143,255) 0%, rgb(206,144,255) 100%);
+  background-image: -moz-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
+  background-image: -webkit-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
+  background-image: -ms-linear-gradient( 0deg, $primary-color-light 0%, $primary-color-light 100%);
 }
 
 
 .p1-gradient-color{
-  background: -moz-linear-gradient( 0deg, rgb(136,143,255) 0%, rgb(206,144,255) 100%);
-  background: -webkit-linear-gradient( 0deg, rgb(136,143,255) 0%, rgb(206,144,255) 100%);
-  background: -ms-linear-gradient( 0deg, rgb(136,143,255) 0%, rgb(206,144,255) 100%);
+  background-image: -moz-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
+  background-image: -webkit-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
+  background-image: -ms-linear-gradient( 0deg, $primary-color-light 0%, $primary-color-light 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .p2-gradient-bg{
-  background-image: -moz-linear-gradient( 0deg, rgb(244,61,106) 0%, rgb(245,116,221) 100%);
-  background-image: -webkit-linear-gradient( 0deg, rgb(244,61,106) 0%, rgb(245,116,221) 100%);
-  background-image: -ms-linear-gradient( 0deg, rgb(244,61,106) 0%, rgb(245,116,221) 100%);
+  background-image: -moz-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-image: -webkit-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-image: -ms-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
 }
 
 .p2-gradient-color{
-  background: -moz-linear-gradient( 0deg, rgb(244,61,106) 0%, rgb(245,116,221) 100%);
-  background: -webkit-linear-gradient( 0deg, rgb(244,61,106) 0%, rgb(245,116,221) 100%);
-  background: -ms-linear-gradient( 0deg, rgb(244,61,106) 0%, rgb(245,116,221) 100%);
+  background-image: -moz-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-image: -webkit-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-image: -ms-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -112,7 +112,9 @@
 //--------- Start Banner Area -------------//
 
 .banner-area {
-	background:url(../img/banner-bg.jpg) center;
+  background-image: -moz-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-image: -webkit-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-image: -ms-linear-gradient( 0deg, $secondary-color-light 0%, $secondary-color-light 100%);
 	background-size:cover;
 	.fullscreen{
 		@media(max-width:767px){
@@ -612,7 +614,7 @@
 		@include transition();
 	}
 	.desc{
-		padding:30px 0px; 
+		height: 275px;
 	}
 	&:hover{
 		cursor:pointer;
