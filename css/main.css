@@ -2366,7 +2366,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   width: 48%;
   height: 100%;
-  background: url(../img/about-img.jpg) no-repeat center center/cover;
+  background: url(../img/tools.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 @media (max-width: 991px) {
