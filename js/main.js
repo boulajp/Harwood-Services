@@ -228,6 +228,7 @@ $(document).ready(function() {
         margin: 30,
         dots: true,
         autoplay: true,
+        autoplayTimeout: 10000,
         responsive: {
             0: {
                 items: 1
