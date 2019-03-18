@@ -291,7 +291,7 @@
 	}
 	.discount-left{
 		p{
-			padding:20px 0;
+			padding:10px 0;
 		}		
 		.header-btn{
 			font-size:14px;
@@ -951,11 +951,6 @@
 
 	}
 
-	.footer-bottom{
-		padding-top:40px;
-		margin-top:20px;
-	}
-
 
 	.footer-text{
 		a,i{
@@ -1033,4 +1028,15 @@
 		margin: 0;
 	}
 }
+
+.contact-details {
+	h5 {
+		color: white;
+	}
+}
+
+.lnr {
+	padding: 0px 10px 0px 0px;
+}
+
 //----------- End Generic Page -------------//
