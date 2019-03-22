@@ -2249,9 +2249,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background-image: -moz-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
-  background-image: -webkit-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
-  background-image: -ms-linear-gradient(0deg, #94de01 0%, #94de01 100%);
+  background-image: url(../img/green-background.jpg);
+  background-image: url(../img/green-background.jpg);
+  background-image: url(../img/green-background.jpg);
   background-size: cover;
 }
 @media (max-width: 767px) {
@@ -2416,7 +2416,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .discount-section-area .overlay-bg {
   opacity: 0.9;
 }
-.discount-section-area .discount-left p {
+.discount-section-area .discount-left h5 {
   padding: 10px 0;
 }
 .discount-section-area .discount-left .header-btn {

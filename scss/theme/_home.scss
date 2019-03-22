@@ -112,9 +112,9 @@
 //--------- Start Banner Area -------------//
 
 .banner-area {
-  background-image: -moz-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
-  background-image: -webkit-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
-  background-image: -ms-linear-gradient( 0deg, $secondary-color-light 0%, $secondary-color-light 100%);
+  background-image: url(../img/green-background.jpg);
+  background-image: url(../img/green-background.jpg);
+  background-image: url(../img/green-background.jpg);
 	background-size:cover;
 	.fullscreen{
 		@media(max-width:767px){
@@ -290,7 +290,7 @@
 		opacity:.9;
 	}
 	.discount-left{
-		p{
+		h5{
 			padding:10px 0;
 		}		
 		.header-btn{
