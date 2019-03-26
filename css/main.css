@@ -1861,11 +1861,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
-@media (max-width: 673px) {
-  #logo {
-    margin-left: 20px;
-  }
+#logo-box {
+  padding: 0;
 }
+
 #header #logo h1 {
   font-size: 34px;
   margin: 0;
