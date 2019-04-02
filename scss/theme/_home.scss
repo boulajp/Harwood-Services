@@ -38,15 +38,11 @@
 }
 
 .p2-gradient-bg{
-  background-image: -moz-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
-  background-image: -webkit-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
-  background-image: -ms-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-color: #0f9f01;
 }
 
 .p2-gradient-color{
-  background-image: -moz-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
-  background-image: -webkit-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
-  background-image: -ms-linear-gradient( 0deg, $secondary-color 0%, $secondary-color-light 100%);
+  background-color: #0f9f01;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -286,7 +282,7 @@
 //--------- Start discount-section Area -------------//
 
 .discount-section-area{
-	background:url(../img/discount-bg.jpg) center;
+	background-color: #0f9f01;
 	background-size:cover;
 	.overlay-bg{
 		@extend .p2-gradient-bg;

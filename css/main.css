@@ -1150,7 +1150,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-left: 30px;
   line-height: 1.82em !important;
-  color: white;
+  color: #222222;
+  padding-bottom: 5px;
+  text-align: left;
 }
 .unordered-list li:before {
   content: "";
@@ -2168,15 +2170,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p2-gradient-bg, .discount-section-area .overlay-bg {
-  background-image: -moz-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
-  background-image: -webkit-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
-  background-image: -ms-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
+  background-color: #0f9f01;
 }
 
 .p2-gradient-color, .work-process-area .single-work-process .work-icon-box span {
-  background-image: -moz-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
-  background-image: -webkit-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
-  background-image: -ms-linear-gradient(0deg, #0f9f01 0%, #94de01 100%);
+  background-color: #0f9f01;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2410,7 +2408,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .discount-section-area {
-  background: url(../img/discount-bg.jpg) center;
+  background-color: #0f9f01;
   background-size: cover;
 }
 .discount-section-area .overlay-bg {

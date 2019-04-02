@@ -384,7 +384,9 @@ h1, h2, h3, h4, h5, h6 {
 		position: relative;
 		padding-left: 30px;
 		line-height: 1.82em !important;
-		color: white;
+		color: #222222;
+		padding-bottom: 5px;
+		text-align: left;
 		&:before {
 			content: "";
 			position: absolute;
