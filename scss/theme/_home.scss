@@ -25,14 +25,14 @@
 .p1-gradient-bg{
   background-image: -moz-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
   background-image: -webkit-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
-  background-image: -ms-linear-gradient( 0deg, $primary-color-light 0%, $primary-color-light 100%);
+  background-image: -ms-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
 }
 
 
 .p1-gradient-color{
   background-image: -moz-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
   background-image: -webkit-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
-  background-image: -ms-linear-gradient( 0deg, $primary-color-light 0%, $primary-color-light 100%);
+  background-image: -ms-linear-gradient( 0deg, $primary-color 0%, $primary-color-light 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
