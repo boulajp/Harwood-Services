@@ -2255,6 +2255,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area .primary-btn {
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 30px;
 }
 
 .banner-content {
