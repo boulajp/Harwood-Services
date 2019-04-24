@@ -3110,6 +3110,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact-details h5 {
   color: white;
 }
+.contact-details h5 a {
+  color: white;
+}
 
 .lnr {
   padding: 0px 10px 0px 0px;
